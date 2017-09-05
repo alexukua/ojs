@@ -9,12 +9,13 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the uk_UA (Українська) locale.
-  *
-  * Translated by Denys Solovianenko, 2011
-  * V. I. Vernadsky National Library of Ukraine
+
+  * Translated by Liliia Luparenko, 2017
+  * Institute of Information Technologies and Learning Tools of NAES of Ukraine
+  * lisoln1@gmail.com
   -->
  
 <locale name="uk_UA" full_name="Українська">
-       <message key="plugins.block.languageToggle.displayName">Блок зміни мови</message>
-       <message key="plugins.block.languageToggle.description">Цей модуль пропонує панель зміни мови.</message>
+       <message key="plugins.block.languageToggle.displayName">Блок «Зміни мову»</message>
+       <message key="plugins.block.languageToggle.description">Цей модуль додає панель зміни мови.</message>
 </locale>
