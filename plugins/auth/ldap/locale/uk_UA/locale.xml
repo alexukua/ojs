@@ -8,21 +8,22 @@
   * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * LDAP authentication plugin localization strings for the uk_UA (Українська) locale.
+  * Localization strings for the uk_UA (Українська) locale.
   *
-  * Translated by Denys Solovianenko, 2011
-  * V. I. Vernadsky National Library of Ukraine
+  * Translated by Liliia Luparenko, 2017
+  * Institute of Information Technologies and Learning Tools of NAES of Ukraine
+  * lisoln1@gmail.com
   -->
  
 <locale name="uk_UA" full_name="Українська">
-       <message key="plugins.auth.ldap.displayName">LDAP</message>
+       <message key="plugins.auth.ldap.displayName">Модуль «LDAP»</message>
        <message key="plugins.auth.ldap.description">Цей модуль дозволяє аутентифікацію та синхронізацію облікових записів користувачів засобами зовнішніх джерел даних LDAP.</message>
        
        <message key="plugins.auth.ldap.settings">Налаштування LDAP</message>
-       <message key="plugins.auth.ldap.settings.hostname">Ім'я хоста серверу</message>
+       <message key="plugins.auth.ldap.settings.hostname">Ім'я сервера</message>
        <message key="plugins.auth.ldap.settings.hostname.description">наприклад, "ldap.example.com" або "ldaps://ldap.example.com" (для використання SSL)</message>
-       <message key="plugins.auth.ldap.settings.port">Порт серверу</message>
-       <message key="plugins.auth.ldap.settings.port.description">Необов'язкове. За замовчуванням 389 (LDAP) або 636 (LDAP через SSL)</message>
+       <message key="plugins.auth.ldap.settings.port">Порт сервера</message>
+       <message key="plugins.auth.ldap.settings.port.description">Необов'язково. За замовчуванням 389 (LDAP) або 636 (LDAP через SSL)</message>
        <message key="plugins.auth.ldap.settings.basedn">База DN</message>
        <message key="plugins.auth.ldap.settings.basedn.description">наприклад, "ou=people,dc=example,dc=com"</message>
        <message key="plugins.auth.ldap.settings.managerdn">DN менеджера</message>
@@ -32,10 +33,12 @@
        <message key="plugins.auth.ldap.settings.uid">Атрибут імені облікового запису</message>
        <message key="plugins.auth.ldap.settings.uid.description">Атрибут, який унікально ідентифікує користувача як об'єкт, наприклад, uid, cn або sAMAccountName.</message>
        <message key="plugins.auth.ldap.settings.pwhash">Шифрування пароля</message>
-       <message key="plugins.auth.ldap.settings.saslopt">Налаштування SASL (необов'язкове)</message>
+	   <message key="plugins.auth.ldap.settings.pwhash.description">Формат хеша для паролів, збережених на сервері. Рекомендується SSHA.</message>
+       <message key="plugins.auth.ldap.settings.saslopt">Налаштування SASL (необов'язково)</message>
+	   <message key="plugins.auth.ldap.settings.sasl">Використовувати SASL замість простої авторизації</message>
        <message key="plugins.auth.ldap.settings.saslmech">Механізм SASL</message>
        <message key="plugins.auth.ldap.settings.saslmech.description">наприклад, "DIGEST-MD5"</message>
-       <message key="plugins.auth.ldap.settings.saslrealm">Realm</message>
-       <message key="plugins.auth.ldap.settings.saslauthzid">Неохідний authorization ID</message>
+       <message key="plugins.auth.ldap.settings.saslrealm">Область (Realm)</message>
+       <message key="plugins.auth.ldap.settings.saslauthzid">Неохідний ID авторизації</message>
        <message key="plugins.auth.ldap.settings.saslprop">Параметри безпеки SASL</message>
 </locale>
