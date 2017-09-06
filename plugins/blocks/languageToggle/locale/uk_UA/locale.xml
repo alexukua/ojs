@@ -16,6 +16,6 @@
   -->
  
 <locale name="uk_UA" full_name="Українська">
-       <message key="plugins.block.languageToggle.displayName">Блок «Зміни мову»</message>
+       <message key="plugins.block.languageToggle.displayName">Блок «Зміни мови»</message>
        <message key="plugins.block.languageToggle.description">Цей модуль додає панель зміни мови.</message>
 </locale>
